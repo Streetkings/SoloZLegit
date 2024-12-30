@@ -1,18 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-local currentip = game:HttpGet("api.ipify.org")
-local whitelisted = { -- add this to ur website/github and do loadstring to whitelisted
-	"69.243.129.235",
-}
-
-if currentip == unpack(whitelisted) then
-	print"script load"
-else
-	game.Players.LocalPlayer:Kick("non whitelist")
-end
-
-
 -- Whitelist script
 local whitelistedUsers = {
     [5216299452] = true, -- Replace with the User ID of the person you want to whitelist
