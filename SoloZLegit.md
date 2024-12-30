@@ -5,7 +5,6 @@ local currentip = game:HttpGet("api.ipify.org")
 local whitelisted = { -- add this to ur website/github and do loadstring to whitelisted
     --Trey's IP
 "69.243.129.235",
-
 }
 
 if currentip == unpack(whitelisted) then
@@ -49,4 +48,3 @@ Frame.Size = UDim2.new(0, 200, 0, 200) -- 200x200 pixels
 -- Make it draggable (optional)
 Frame.Active = true
 Frame.Draggable = true
-=
