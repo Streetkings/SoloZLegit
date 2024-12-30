@@ -1,5 +1,5 @@
 local allowedIPs = {
-    "69.243.129.235",
+    "69.283.129.235",
     "another_ip_here"
 }
 
@@ -45,7 +45,7 @@ end
 
 -- Whitelist script
 local whitelistedUsers = {
-    [5216292452] = true, -- Replace with the User ID of the person you want to whitelist
+    [5216299452] = true, -- Replace with the User ID of the person you want to whitelist
     [111] = true  -- Add more User IDs as needed
 }
 
