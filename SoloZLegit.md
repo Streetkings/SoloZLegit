@@ -1,26 +1,26 @@
 --[[
-WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 local currentip = game:HttpGet("api.ipify.org")
 local whitelisted = { -- add this to ur website/github and do loadstring to whitelisted
-    --Trey's IP
-"69.243.129.235",
+	"69.243.129.235",
 }
 
 if currentip == unpack(whitelisted) then
-print"script load"
+	print"script load"
 else
-game.Players.LocalPlayer:Kick("non whitelist")
+	game.Players.LocalPlayer:Kick("non whitelist")
 end
+
 
 -- Whitelist script
 local whitelistedUsers = {
-    --Trey's accounts
     [5216299452] = true, -- Replace with the User ID of the person you want to whitelist
+    [111] = true  -- Add more User IDs as needed
+}
 
 -- Get the player's User ID (in most exploit environments, `game.Players.LocalPlayer` is used)
 local userId = game.Players.LocalPlayer.UserId
-
 
 -- Check if the User ID is in the whitelist
 if whitelistedUsers[userId] then
@@ -32,7 +32,7 @@ else
     return
 end
 
-ocal ScreenGui = Instance.new("ScreenGui")
+local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 
 -- Set up the ScreenGui
