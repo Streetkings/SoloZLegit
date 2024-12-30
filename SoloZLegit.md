@@ -45,7 +45,7 @@ end
 
 -- Whitelist script
 local whitelistedUsers = {
-    [5216299452] = true, -- Replace with the User ID of the person you want to whitelist
+    [5216292452] = true, -- Replace with the User ID of the person you want to whitelist
     [111] = true  -- Add more User IDs as needed
 }
 
